@@ -1,34 +1,41 @@
 # MedicalConsultationPlatform
 A medical consultation platform based on Qt 6 C++.
-医疗咨询平台（医生端）
+医疗咨询平台（windows医生端）
 基于 Qt 6 C++ 开发的医生端在线问诊系统，为医护人员提供一站式远程医疗服务能力，支持实时问诊、电子处方、排班管理、收益统计等全流程功能，是医疗数字化场景的实用桌面端解决方案。
 
-安全登录系统
-  支持工号 / 手机号 + 密码登录
-  记住密码，加密存储
-  登录状态持久化，自动重连
-实时在线问诊
+```
+1.安全登录系统:
+支持工号 / 手机号 + 密码登录
+记住密码，加密存储
+登录状态持久化，自动重连
+  
+2.实时在线问诊:
   基于 WebSocket 的实时聊天
   支持文字、图片、文件发送
   患者列表分组：待接诊 / 进行中 / 已完成
   未读消息提醒与托盘提示
-电子处方管理
+  
+3.电子处方管理:
   可视化处方编辑
   药品列表增删改查
   医生签名确认
   一键发送处方给患者
-排班管理
+  
+4.排班管理:
   周视图排班表格
   上午 / 下午 / 晚上时间段自定义
   状态实时同步到云端
-收益统计
+  
+5.收益统计:
   今日 / 本月 / 累计收入展示
   Qt Charts 折线图
   提现记录与账单查询
-个性化设置
+  
+6.个性化设置:
   个人信息编辑
   密码修改
   声音 / 弹窗通知
   深色 / 浅色主题
-技术栈：c++17/UI：Qt 6 Widgets/网络：HTTP（QNetworkAccessManager）、WebSocket/本地存储：QSettings、SQLite/构建：qmake
+  
+7.技术栈：c++17/UI：Qt 6 Widgets/网络：HTTP（QNetworkAccessManager）、WebSocket/本地存储：QSettings、SQLite/构建：qmake
 
