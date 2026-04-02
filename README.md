@@ -1,6 +1,6 @@
 # MedicalConsultationPlatform
-A medical consultation platform based on Qt 6 C++.
 医疗咨询平台（windows医生端）
+
 基于 Qt 6 C++ 开发的医生端在线问诊系统，为医护人员提供一站式远程医疗服务能力，支持实时问诊、电子处方、排班管理、收益统计等全流程功能，是医疗数字化场景的实用桌面端解决方案。
 
 ```
